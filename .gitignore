@@ -1,0 +1,11 @@
+
+*.ipynb_checkpoints/
+*.DS_Store
+/data/**.csv
+/data/**.tsv
+/data/**.json
+/data/**.xz
+/data/**.jpg
+/models/**.hdf5
+*.hdf5
+*/__pycache__/*
