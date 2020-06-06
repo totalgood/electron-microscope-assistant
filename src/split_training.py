@@ -2,7 +2,7 @@ from numpy.random import choice
 import cv2
 import os
 
-def train_val_holdout_split_images(root_path, n_images = 350, train_ratio  = 0.7, validation_ratio = 0.2, holdout_ratio = 0.1, resize_size = (299,299)):
+def train_val_holdout_split_images(root_path, n_images = 21283, train_ratio  = 0.7, validation_ratio = 0.2, holdout_ratio = 0.1, resize_size = (299,299)):
     """
     Utility to split categorical training files organized by folder into training and testing, with resizing and max_images
     Args:
@@ -40,4 +40,4 @@ def train_val_holdout_split_images(root_path, n_images = 350, train_ratio  = 0.7
                print(new_path, i)
                i += 1
 
-train_val_holdout_split_images('data/')
+train_val_holdout_split_images('data-raw/')
