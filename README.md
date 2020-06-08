@@ -72,6 +72,9 @@ Commonly confused categories
 |  Particles | Nanowires    | 1.45%|
 |  Powder | Nanowires     |1.38%|
 
+## Web app in flask
+
+![alt text](https://github.com/b-weintraub/electron-microscope-assistant/img/flask-demo.gif "Flask app demo")
 
   
 
