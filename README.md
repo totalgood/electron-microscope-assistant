@@ -62,6 +62,18 @@ The dataset contains 21,283 scanning electron microscope (SEM) images produced a
 <td><img src='img/confusion_xc_model.png' align='center' style='width: 250px;'></td>
 </p>
 
+Commonly confused categories
+
+| category     | confused for | % |
+| ------------- |:-------------:|:-------: |
+| Patterned_surface | MEMS_devices_and_electrodes    | 3.80%|
+| Powder | Biological    |  3.11% |
+|   Patterned_surface    |Particles     | 1.87%|
+|  Particles | Nanowires    | 1.45%|
+|  Powder | Nanowires     |1.38%|
+
+
+  
 
 ## References
 
