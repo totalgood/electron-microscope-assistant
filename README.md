@@ -75,7 +75,7 @@ Commonly confused categories
 ## Flask web app
 
 
-<img src="https://github.com/b-weintraub/electron-microscope-assistant/blob/master/img/flask-demo.gif" width="40" height="40" />
+<img src="https://github.com/b-weintraub/electron-microscope-assistant/blob/master/img/flask-demo.gif" width="" height="" />
 
   
 
