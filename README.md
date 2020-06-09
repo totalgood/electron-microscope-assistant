@@ -48,14 +48,14 @@ The dataset contains 21,283 scanning electron microscope (SEM) images produced a
 
 ## Discussion/Next steps
 <p align='middle'>
-    <td><img src='img/accuracy_xc_model.png' align='center' style='width: 250px;'></td>
-    <td><img src='img/accuracy_simple_cnn_model.png' align='center' style='width: 250px;'></td>
+    <td><img src='img/accuracy_xc_model-20.png' align='center' style='width: 250px;'></td>
+    <td><img src='img/accuracy_simple_cnn_model-20.png' align='center' style='width: 250px;'></td>
     
 </p>
 
 <p align='middle'>
-<td><img src='img/loss_xc_model.png' align='center' style='width: 250px;'></td>
-<td><img src='img/loss_simple_cnn_model.png' align='center' style='width: 247px;'></td>
+<td><img src='img/loss_xc_model-20.png' align='center' style='width: 250px;'></td>
+<td><img src='img/loss_simple_cnn_model-20.png' align='center' style='width: 247px;'></td>
 </p>
 
 <p align='middle'>
@@ -66,11 +66,12 @@ Commonly confused categories
 
 | category     | confused for | % |
 | ------------- |:-------------:|:-------: |
-| Patterned_surface | MEMS_devices_and_electrodes    | 3.80%|
-| Powder | Biological    |  3.11% |
-|   Patterned_surface    |Particles     | 1.87%|
-|  Particles | Nanowires    | 1.45%|
-|  Powder | Nanowires     |1.38%|
+| Patterned_surface | MEMS_devices_and_electrodes    | 2.26%|
+| Particles | Nanowires    |  0.55% |
+|   Particles    |Films_Coated_Surface     | 0.43%|
+|  Nanowires | Biological    | 0.37%|
+|  Nanowires | Films_Coated_Surface     |0.30%|
+
 
 ## Flask web app
 
