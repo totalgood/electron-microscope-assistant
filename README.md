@@ -10,12 +10,17 @@ Ben Weintraub, Ph.D.
 - <a href="https://github.com/b-weintraub/electron-microscope-assistant#background">Background</a>  
 - <a href="https://github.com/b-weintraub/electron-microscope-assistant#Dataset">Dataset</a> 
 - <a href="https://github.com/b-weintraub/electron-microscope-assistant#Exploratory-Data-Analysis">Exploratory Data Analysis</a>  
-- <a href="https://github.com/b-weintraub/electron-microscope-assistant#Machine-Learning-Models">Machine Learning Models</a> 
+- <a href="https://github.com/b-weintraub/electron-microscope-assistant#Models">Models</a> 
 - <a href="https://github.com/b-weintraub/electron-microscope-assistant#DiscussionNext-steps">Discussion/Next steps</a>
 
 ## Summary
 
 ## Background
+
+Electron microscopes (EMs) such as transmission electron microscopes (TEMs) and scanning electron microscopes (SEMs) are useful for probing matter at magnifications beyond what’s possible using light microscopes, whose resolution is limited by the abbe diffraction limit. EMs can achieve sub-nanometer resolutions and are useful for characterizing nano-materials, or materials with dimensions on the order of billionths of a meter.  However, EMs are complex instruments requiring ultra-high vacuum systems and are thus expensive to operate.  It would be useful to develop methods to reduce the length of time required to analyze samples and increase sample analysis throughput.  Electron microscopists spend much of their time searching for target samples on the substrate as this process can be likened to “finding a needle in a haystack”.
+
+This project looks for ways to automate parts of the electron microscopy process by using neural networks to identify nano-materials from scanning electron microscope images.
+
 
 ## Dataset
 
@@ -45,6 +50,9 @@ The dataset contains 21,283 scanning electron microscope (SEM) images produced a
 <img src='img/example_categories_plot.png' align='center' style='width: 800px;'>
 
 ## Exploratory Data Analysis
+
+## Models
+
 
 ## Discussion/Next steps
 <p align='middle'>
@@ -88,5 +96,7 @@ App demonstration
 
 ## References
 
+Aversa, R., Modarres, M., Cozzini, S. et al. The first annotated set of scanning electron microscopy images for nanoscience. Sci Data 5, 180172 (2018). 
+https://www.nature.com/articles/sdata2018172
 
 
