@@ -74,7 +74,7 @@ Commonly confused categories
 
 ## Flask web app
 
-<img src='img/web-app-screen-shot.png' align='center' style='width: 400px;'>
+<img src='img/web-app-screen-shot.png' align='center' style='width: 200px;'>
 
 
 <img src="https://github.com/b-weintraub/electron-microscope-assistant/blob/master/img/flask-demo3.gif" width="" height="" />
