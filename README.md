@@ -73,26 +73,13 @@ To handle the heavy processing, all computing was performed on an AWS EC2 instan
     <tbody><tr><th><img src='img/accuracy_xc_model-20.png' align='center' style='width: 200px;'></th>
     <th><img src='img/accuracy_simple_cnn_model-20.png' align='center' style='width: 200px;'></td></th>
     </tr><tr>
-        <td><img src='img/loss_xc_model-20.png' align='center' style='width: 250px;'></td>
-        <td><img src='img/loss_simple_cnn_model-20.png' align='center' style='width: 247px;'></td>
+        <td><img src='img/loss_xc_model-20.png' align='center' style='width: 200px;'></td>
+        <td><img src='img/loss_simple_cnn_model-20.png' align='center' style='width: 200px;'></td>
     </tr>
 </tbody></table>
 
 
-<p align='middle'>
-    <td><img src='img/accuracy_xc_model-20.png' align='center' style='width: 200px;'></td>
-    <td><img src='img/accuracy_simple_cnn_model-20.png' align='center' style='width: 200px;'></td>
-</p>
 
-
-<p align='middle'>
-<td><img src='img/loss_xc_model-20.png' align='center' style='width: 250px;'></td>
-<td><img src='img/loss_simple_cnn_model-20.png' align='center' style='width: 247px;'></td>
-</p>
-
-<p align='middle'>
-<td><img src='img/confusion_xc_model.png' align='center' style='width: 250px;'></td>
-</p>
 
 Commonly confused categories
 
