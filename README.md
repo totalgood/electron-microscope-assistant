@@ -68,13 +68,15 @@ To handle the heavy processing, all computing was performed on an AWS EC2 instan
 
 
 ## Discussion/Next steps
-<p align='middle'>
-    <td><img src='img/accuracy_xc_model-20.png' align='center' style='width: 250px;'></td><td><img src='img/accuracy_simple_cnn_model-20.png' align='center' style='width: 250px;'></td>
+
+<td><img src='img/accuracy_xc_model-20.png' align='center' style='width: 250px;'>
+</td><td><img src='img/accuracy_simple_cnn_model-20.png' align='center' style='width: 250px;'></td>
     
-</p>
+
 
 <p align='middle'>
-<td><img src='img/loss_xc_model-20.png' align='center' style='width: 250px;'></td><td><img src='img/loss_simple_cnn_model-20.png' align='center' style='width: 247px;'></td>
+<td><img src='img/loss_xc_model-20.png' align='center' style='width: 250px;'></td>
+<td><img src='img/loss_simple_cnn_model-20.png' align='center' style='width: 247px;'></td>
 </p>
 
 <p align='middle'>
