@@ -78,8 +78,11 @@ Commonly confused categories
 <td><img src='img/web-app-screen-shot.png'  width="400" height=""></td>
 </p>
 
-<img src="https://github.com/b-weintraub/electron-microscope-assistant/blob/master/img/flask-demo3.gif" width="" height="" />
+App demonstration
 
+<p align='middle'>
+<img src="https://github.com/b-weintraub/electron-microscope-assistant/blob/master/img/flask-demo3.gif" width="" height="" />
+</p>
   
 
 ## References
