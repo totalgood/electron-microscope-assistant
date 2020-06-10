@@ -47,7 +47,7 @@ Here are some representative images of each of the 10 categories.
 
 <img src='img/example_categories_plot.png' align='center' style='width: 800px;'>
 
-Although the images are grayscale, they are encoded in 3 RGB channels. Each image contains a color metadata tag including magnification, stage tilt angle, working distance, etc.  The tag was not removed. 
+Although the images are grayscale, they contain a color metadata tagthey and are encoded in 3 RGB channels. The metadata tag includes magnification, stage tilt angle, working distance, etc.  The tag was not removed. 
 
 # Data preprocessing
 
@@ -100,7 +100,10 @@ The simple CNN model performed poorly with an accuracy of 50%.  To improve perfo
 
 # Transfer learning - Xception model
 
-Transfer learning is a technique that takes a model trained on one task and re-purposes it on a second related task. This study uses the Xception model, a pre-made architecture previoulsy trained on the massive ImageNet dataset. In this way, the final output layer of the neural network is replaced with the output layer corresponding to the new data from the SEM images and is fine-tuned to predict on this new data. Xception has 134 layers with 36 convolutional layers. It takes advantage of depthwise separable convolutions, leading to increased classification accuracy and computational efficiency (Chollet 2017).  A gradient-based RMSprop optimizer was used with a low learning rate of 0.001.  
+Transfer learning is a technique that takes a model trained on one task and re-purposes it on a second related task. This study uses the Xception model, a pre-made architecture previously trained on the massive ImageNet dataset. In this way, the final output layer of the neural network is replaced with the output layer corresponding to the new data from the SEM images and is fine-tuned to predict on this new data. Xception has 134 layers with 36 convolutional layers. It takes advantage of depthwise separable convolutions, leading to increased classification accuracy and computational efficiency (Chollet 2017).  
+
+ Generally speaking, gradient descent minimizes some function by iteratively moving in the direction of steepest descent as defined by the negative of the gradient. The learning rate determines the size of the steps we take to reach a (local) minimum. In other words, we follow the direction of the slope of the surface created by the function downhill until we reach a valley. In this study, a gradient descent-based RMSprop optimizer was used with a low learning rate of 0.001.
+ 
 
 
 ## Results
@@ -133,7 +136,7 @@ Commonly confused categories
 
 ## Flask web app
 
-A web app based built using flask in order to allow users to classify their own electron microscope images.  Below is a screenshot of the app.
+A web app was built using flask in order to allow users to classify their own electron microscope images.  Below is a screenshot of the app.
 
 <p align='middle'>
 <td><img src='img/web-app-screen-shot.png'  width="400" height=""></td>
