@@ -11,9 +11,8 @@ Ben Weintraub, Ph.D.
 - <a href="https://github.com/b-weintraub/electron-microscope-assistant#Dataset">Dataset</a> 
 - <a href="https://github.com/b-weintraub/electron-microscope-assistant#Exploratory-Data-Analysis">Exploratory Data Analysis</a>  
 - <a href="https://github.com/b-weintraub/electron-microscope-assistant#Models">Models</a> 
-- <a href="https://github.com/b-weintraub/electron-microscope-assistant#DiscussionNext-steps">Discussion/Next steps</a>
+- <a href="https://github.com/b-weintraub/electron-microscope-assistant#Next-steps">Next steps</a>
 
-## Summary
 
 ## Background
 
