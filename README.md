@@ -1,4 +1,4 @@
-<img src='img/HR-TEM2.jpg' align='center' style='width: 800px;'>
+<img src='img/HR-TEM2.png' align='center' style='width: 800px;'>
 
 
 # Electron Microscope Assistant
@@ -174,6 +174,6 @@ F. Chollet, "Xception: Deep Learning with Depthwise Separable Convolutions," 201
 https://arxiv.org/pdf/1610.02357.pdf
 
 Header image
-https://cns1.rc.fas.harvard.edu/electron-microscopy/
+https://www.microscopy.ethz.ch/catalysis.htm
 
 
