@@ -1,3 +1,6 @@
+<img src='img/HRTEM-nano.jpg' align='center' style='width: 800px;'>
+
+
 # Electron Microscope Assistant
 
 Ben Weintraub, Ph.D.
@@ -169,5 +172,8 @@ https://www.nature.com/articles/sdata2018172
 
 F. Chollet, "Xception: Deep Learning with Depthwise Separable Convolutions," 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Honolulu, HI, 2017, pp. 1800-1807, doi: 10.1109/CVPR.2017.195.
 https://arxiv.org/pdf/1610.02357.pdf
+
+Header image
+https://cns1.rc.fas.harvard.edu/electron-microscopy/
 
 
