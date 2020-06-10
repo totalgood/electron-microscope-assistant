@@ -24,7 +24,7 @@ Ben Weintraub, Ph.D.
 - <a href="https://github.com/b-weintraub/electron-microscope-assistant#Dataset">Dataset</a> 
 - <a href="https://github.com/b-weintraub/electron-microscope-assistant#Exploratory-Data-Analysis">Exploratory Data Analysis</a>  
 - <a href="https://github.com/b-weintraub/electron-microscope-assistant#Models">Models</a> 
-- <a href="https://github.com/b-weintraub/electron-microscope-assistant#Next-steps">Next steps</a>
+- <a href="https://github.com/b-weintraub/electron-microscope-assistant#Disscusion/Conclusion">Disscusion/Conclusion</a>
 
 
 ## Background
@@ -147,7 +147,7 @@ Commonly confused categories
 
 ## Flask web app
 
-A web app was built using flask in order to allow users to classify their own electron microscope images.  Below is a screenshot of the app.
+A web app was built using flask in order to allow users to classify their own electron microscope images.  The Xception model was saved as a hdf5 file and predictions were made through a dockerized flask app. Below is a screenshot of the app.
 
 <p align='middle'>
 <td><img src='img/web-app-screen-shot.png'  width="400" height=""></td>
@@ -161,9 +161,13 @@ Here is a quick live demonstration of the app.
 <img src="https://github.com/b-weintraub/electron-microscope-assistant/blob/master/img/flask-demo3.gif" width="" height="" />
 </p>
   
-# Next Steps
+# Disscusion/Conclusion
 
-A reasonably functioning electron microscope image classifier was successfully demonstrated using transfer learning based on the Xception model. Future steps, would include implementing this using a live video feed using openCV to try to incorporate real-time analysis during electron microscopy.  
+A 94% accurate electron microscope image classifier was successfully demonstrated using transfer learning based on the Xception model. Some of the challenges with working with microscopy images is encoding the magnification.  For example, a 1-D fiber looks similiar to a 1-D nanowire depending on the magnification.  It's important for the model to encode magnfication data.  In this study, magnification data was imbedded as the meta data tag on the image.  However, it would be useful to encode this along with other metadata in separate channels. 
+
+This study focuses primarily on material morphology.  However, electron microscopes can also gather chemical information via Energy Dispersive X-Ray Spectroscopy (EDXS) and structural information via electron diffraction. It would be useful encode this information as well in separate channels to provide additional predictive power for the model.
+
+It would also be interested to implement the model using a live video feed through openCV to try to incorporate real-time analysis during electron microscopy.  
 
 ## Tech stack used
 
@@ -181,7 +185,7 @@ https://www.nature.com/articles/sdata2018172
 F. Chollet, "Xception: Deep Learning with Depthwise Separable Convolutions," 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Honolulu, HI, 2017, pp. 1800-1807, doi: 10.1109/CVPR.2017.195.
 https://arxiv.org/pdf/1610.02357.pdf
 
-Header image
+Header image (HRTEM nanowire)
 https://cns1.rc.fas.harvard.edu/electron-microscopy/
 
 
