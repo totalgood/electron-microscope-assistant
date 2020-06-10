@@ -14,6 +14,8 @@ Ben Weintraub, Ph.D.
 
 <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/1e5751b3345a8c3b7f1100e34a940113ec57a675/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6173742532306d6f6469666965642d6a756e65253230253230323032302d737563636573733f7374796c653d706c6173746963"><img align="center" src="https://camo.githubusercontent.com/1e5751b3345a8c3b7f1100e34a940113ec57a675/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6173742532306d6f6469666965642d6a756e65253230253230323032302d737563636573733f7374796c653d706c6173746963" data-canonical-src="https://img.shields.io/badge/last%20modified-june%20%202020-success?style=plastic" style="max-width:100%;"></a>
 
+<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/fc155236b90e91a53417df0e292cbac0a8e7860b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7374617475732d636f6d706c6574652d737563636573733f7374796c653d706c6173746963"><img align="center" src="https://camo.githubusercontent.com/fc155236b90e91a53417df0e292cbac0a8e7860b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7374617475732d636f6d706c6574652d737563636573733f7374796c653d706c6173746963" data-canonical-src="https://img.shields.io/badge/status-complete-success?style=plastic" style="max-width:100%;"></a>
+
 ## Table of Contents
 
 - <a href="https://github.com/b-weintraub/electron-microscope-assistant#background">Background</a>  
