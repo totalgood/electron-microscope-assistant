@@ -62,9 +62,7 @@ Although the images are grayscale, they contain a color metadata tagthey and are
 
 # Data preprocessing
 
-The data was split into 70% training, 20% validation and 10% holdout and uploaded to an AWS S3 bucket for later processing on an EC2 instance.
-
-Training image data were augmented by transformations including rotation, width/height shift, shearing and zoom.
+The data was split into 70% training, 20% validation and 10% holdout and uploaded to an AWS S3 bucket for later processing on an EC2 instance.  Training image data were augmented by transformations including rotation, width/height shift, shearing and zoom to make model less susceptible to overfitting.
 
 
 
@@ -167,7 +165,7 @@ A 94% accurate electron microscope image classifier was successfully demonstrate
 
 This study focuses primarily on material morphology.  However, electron microscopes can also gather chemical information via Energy Dispersive X-Ray Spectroscopy (EDXS) and structural information via electron diffraction. It would be useful encode this information as well in separate channels to provide additional predictive power for the model.
 
-It would also be interested to implement the model using a live video feed through openCV to try to incorporate real-time analysis during electron microscopy.  
+It would also be interesting to implement the model using a live video feed through openCV to try to incorporate real-time analysis during electron microscopy.  
 
 ## Tech stack used
 
