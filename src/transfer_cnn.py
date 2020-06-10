@@ -323,7 +323,7 @@ def main():
     validation_folder = 'data/validation'
     holdout_folder = 'data/holdout'
 
-    target_size = (170, 170)  # 299,299 is suggested for xception but is quite taxing on cpu
+    target_size = (299, 299)  # 299,299 is suggested for xception but is quite taxing on cpu
     epochs = 20
     batch_size = 16
 

@@ -95,15 +95,16 @@ Here is sample code for the simple CNN.
 
 </details>
 
+The simple CNN model performed poorly with an accuracy of 50%.  To improve performance, next transfer learning was employed.
+
 # Transfer learning - Xception model
 
-<details open="">
-    <summary>Xception transfer Model Summary</summary>
-    
-</details>
+Transfer learning is a technique that takes a model trained on one task and re-purposes it on a second related task. This study uses the Xception model, a pre-made architecture previoulsy trained on the massive ImageNet dataset. In this way, the final output layer of the neural network is replaced with the output layer corresponding to the new data from the SEM images and is fine-tuned to predict on this new data. Xception has 134 layers with 36 convolutional layers. It takes advantage of depthwise separable convolutions, leading to increased classification accuracy and computational efficiency (Chollet 2017).  A gradient-based RMSprop optimizer was used with a low learning rate of 0.001.  
 
 
-## Discussion/Next steps
+## Results
+
+Using the Xception model, an accuracy of 94% is achieved.  Below are the accuracy and loss results for both the simple and Xception models.
 
 <table>
     <tbody><tr><th><img src='img/accuracy_xc_model-20.png' align='center' style='width: 200px;'></th>
@@ -114,6 +115,7 @@ Here is sample code for the simple CNN.
     </tr>
 </tbody></table>
 
+A confusion matrix was generated to see where the model was mislabeling the classes.  Most commonly, Patterned_surface was confused for MEM_devices_and_electrodes.  This is reasonable since many MEMS devices and electrodes are generated from patterned surfaces.
 
 <img src='img/confusion_xc_model.png' align='center' style='width: 800px;'>
 
@@ -130,17 +132,25 @@ Commonly confused categories
 
 ## Flask web app
 
+A web app based built using flask in order to allow users to classify their own electron microscope images.  Below is a screenshot of the app.
+
 <p align='middle'>
 <td><img src='img/web-app-screen-shot.png'  width="400" height=""></td>
 </p>
 
-App demonstration
+## App demonstration
+
+Here is a quick live demonstration of the app. 
 
 <p align='middle'>
 <img src="https://github.com/b-weintraub/electron-microscope-assistant/blob/master/img/flask-demo3.gif" width="" height="" />
 </p>
   
-Tech stack used:
+# Next Steps
+
+A reasonably functioning electron microscope image classifier was successfully demonstrated using transfer learning based on the Xception model. Future steps, would include implementing this using a live video feed using openCV to try to incorporate real-time analysis during electron microscopy.  
+
+## Tech stack used
 
 <p align='middle'>
 <td><img src='img/tech-stack.png'  width="" height=""></td>
