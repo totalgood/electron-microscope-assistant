@@ -79,7 +79,7 @@ To handle the heavy processing, all computing was performed on an AWS EC2 instan
 </tbody></table>
 
 
-
+<img src='img/confusion_xc_model.png' align='center' style='width: 800px;'>
 
 Commonly confused categories
 
