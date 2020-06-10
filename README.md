@@ -60,6 +60,7 @@ Training image data were augmented by transformations including rotation, width/
 
 A convolution neural network (CNN) was the best choice for this dataset because they are uniquely suited to finding features in images. Generally, images are represented as tensors, or multi-dimensional arrays. Convolution, Rectified Linear Unit, and Max Pooling are three types of transformations commonly chained together in CNNs. Convolution is an operation that identifies which regions of an image have a feature by combining an image and a filter to create a new image.  The rectified linear unit (ReLU),an activation function, highlights only the region where the feature exists. Lastly, max pooling downsamples the resulting information to lower resolution to save space and computation. 
 
+<img src='img/cnn-architecture.png' align='center' style='width: 800px;'>
 
 
 ## Training
@@ -91,6 +92,8 @@ Here is sample code for the simple CNN.
     model.add(Activation('softmax'))
 
 </details>
+
+# Transfer learning - Xception model
 
 <details open="">
     <summary>Xception transfer Model Summary</summary>
