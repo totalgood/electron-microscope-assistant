@@ -58,8 +58,39 @@ Training image data were augmented by transformations including rotation, width/
 
 ## Models
 
+A convolution neural network (CNN) was the best choice for this dataset because they are uniquely suited to finding features in images. Generally, images are represented as tensors, or multi-dimensional arrays. Convolution, Rectified Linear Unit, and Max Pooling are three types of transformations commonly chained together in CNNs. Convolution is an operation that identifies which regions of an image have a feature by combining an image and a filter to create a new image.  The rectified linear unit (ReLU),an activation function, highlights only the region where the feature exists. Lastly, max pooling downsamples the resulting information to lower resolution to save space and computation. 
+
+
+
 ## Training
-To handle the heavy processing, all computing was performed on an AWS EC2 instance (32 vCPU, 128 GiB memory). The model was training for 20 epochs.  Tensorboard was used to monitor the progress of the models.
+To handle the heavy processing, all computing was performed on an AWS EC2 instance (32 vCPU, 128 GiB memory). The model was training for 20 epochs.  Tensorboard was used to monitor the progress of the models. The model was trained by minimizing a cross entropy loss function. Accuracy and loss was tabulated for each epoch and saved to a log file using tensorboard.  
+
+Here is sample code for the simple CNN.
+
+<details open="">
+    nb_filters = 32
+    kernel_size = (3, 3)
+    pool_size = (2, 2)
+
+    model = Sequential()
+    # 2 convolutional layers followed by a pooling layer followed by dropout
+    model.add(Convolution2D(nb_filters, kernel_size,
+                            padding='valid',
+                            input_shape=input_size))
+    model.add(Activation('relu'))
+    model.add(Convolution2D(nb_filters, kernel_size))
+    model.add(Activation('relu'))
+    model.add(MaxPooling2D(pool_size=pool_size))
+    model.add(Dropout(0.25))
+    # transition to an mlp
+    model.add(Flatten())
+    model.add(Dense(128))
+    model.add(Activation('relu'))
+    model.add(Dropout(0.5))
+    model.add(Dense(n_categories))
+    model.add(Activation('softmax'))
+
+</details>
 
 <details open="">
     <summary>Xception transfer Model Summary</summary>
