@@ -24,7 +24,7 @@ Ben Weintraub, Ph.D.
 - <a href="https://github.com/b-weintraub/electron-microscope-assistant#Dataset">Dataset</a> 
 - <a href="https://github.com/b-weintraub/electron-microscope-assistant#Exploratory-Data-Analysis">Exploratory Data Analysis</a>  
 - <a href="https://github.com/b-weintraub/electron-microscope-assistant#Models">Models</a> 
-- <a href="https://github.com/b-weintraub/electron-microscope-assistant#Disscusion/Conclusion">Disscusion/Conclusion</a>
+- <a href="https://github.com/b-weintraub/electron-microscope-assistant#Discussion/Conclusion">Discussion/Conclusion</a>
 
 
 ## Background
@@ -161,7 +161,7 @@ Here is a quick live demonstration of the app.
 <img src="https://github.com/b-weintraub/electron-microscope-assistant/blob/master/img/flask-demo3.gif" width="" height="" />
 </p>
   
-# Disscusion/Conclusion
+# Discussion/Conclusion
 
 A 94% accurate electron microscope image classifier was successfully demonstrated using transfer learning based on the Xception model. Some of the challenges with working with microscopy images is encoding the magnification.  For example, a 1-D fiber looks similiar to a 1-D nanowire depending on the magnification.  It's important for the model to encode magnfication data.  In this study, magnification data was imbedded as the meta data tag on the image.  However, it would be useful to encode this along with other metadata in separate channels. 
 
