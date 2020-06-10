@@ -1,4 +1,4 @@
-<img src='img/HRTEM-nano.jpg' align='center' style='width: 800px;'>
+<img src='img/HR-TEM2.jpg' align='center' style='width: 800px;'>
 
 
 # Electron Microscope Assistant
