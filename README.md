@@ -68,10 +68,10 @@ To handle the heavy processing, all computing was performed on an AWS EC2 instan
 Here is sample code for the simple CNN.
 
 <details open="">
+    
     nb_filters = 32
     kernel_size = (3, 3)
     pool_size = (2, 2)
-
     model = Sequential()
     # 2 convolutional layers followed by a pooling layer followed by dropout
     model.add(Convolution2D(nb_filters, kernel_size,
