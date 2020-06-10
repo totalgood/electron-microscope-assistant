@@ -5,10 +5,14 @@
 
 Ben Weintraub, Ph.D.
 
+
+
 <a href="https://www.linkedin.com/in/benweintraub-phd/">LinkedIn profile</a>
 
 <a href="https://docs.google.com/presentation/d/1GsfuGpNfm7nJ1Ozkt2XknCrtvMZXQcTfl0kLpUWExyM/edit?usp=sharing"> Link to slide deck presentation</a>
 
+
+<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/1e5751b3345a8c3b7f1100e34a940113ec57a675/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6173742532306d6f6469666965642d6a756e65253230253230323032302d737563636573733f7374796c653d706c6173746963"><img align="center" src="https://camo.githubusercontent.com/1e5751b3345a8c3b7f1100e34a940113ec57a675/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6173742532306d6f6469666965642d6a756e65253230253230323032302d737563636573733f7374796c653d706c6173746963" data-canonical-src="https://img.shields.io/badge/last%20modified-june%20%202020-success?style=plastic" style="max-width:100%;"></a>
 
 ## Table of Contents
 
