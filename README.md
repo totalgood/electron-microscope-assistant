@@ -1,7 +1,7 @@
 <img src='img/HRTEM-nano.jpg' align='center' style='width: 800px;'>
 
 
-# Electron Microscope Assistant
+# Electron Microscope Assistant - A Convolution Neural Network Image Classifier
 
 Ben Weintraub, Ph.D.
 
@@ -36,7 +36,7 @@ This project looks for ways to automate parts of the electron microscopy process
 
 ## Dataset
 
-The dataset contains 21,283 scanning electron microscope (SEM) images produced at Institute of Materials, CNR (https://b2share.eudat.eu/records/80df8606fcdb4b2bae1656f0dc6db8ba).  The images were broken up into 10 categories as shown in the below table.
+The dataset contains 21,283 scanning electron microscope (SEM) images produced at the Italian Institute of Materials, CNR (https://b2share.eudat.eu/records/80df8606fcdb4b2bae1656f0dc6db8ba).  The images were broken up into 10 categories as shown in the below table.
 
 ## Exploratory Data Analysis
 
